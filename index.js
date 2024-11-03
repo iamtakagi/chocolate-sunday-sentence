@@ -28,7 +28,7 @@ window.addEventListener("DOMContentLoaded", () => {
     const result = document.querySelector("#result").innerText;
     if (result === "" || result === null || result === undefined) return alert("構文を生成してください♪")
     window.open(
-        `https://twitter.com/intent/tweet?text=${result}` + encodeURI(`&url=https://iamtakagi.github.io/chocolate-sunday-sentence/&hashtags=月曜日が近いよ構文`),
+        `https://twitter.com/intent/tweet?text=${result}` + encodeURI(`&url=https://iamtakagi.github.io/chocolate-sunday-sentence/&hashtags=月曜が近いよ構文`),
         "_blank",
         "noreferrer"
     )
